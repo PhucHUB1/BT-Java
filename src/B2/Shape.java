@@ -1,7 +1,8 @@
 ﻿package B2;
 
-public class Shape {
+public abstract class Shape {
     
     private String Color;
+    public abstract double getArea();
     
 }
